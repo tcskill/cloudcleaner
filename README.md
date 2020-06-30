@@ -31,17 +31,22 @@ Expects following environment variables
 
 
 API endpoints for interacting with Cloud Foundry Public
-US SOUTH	api.us-south.cf.cloud.ibm.com
-US EAST	api.us-east.cf.cloud.ibm.com
-EU-GB	api.eu-gb.cf.cloud.ibm.com
-EU-DE	api.eu-de.cf.cloud.ibm.com
-AU-SYD	api.au-syd.cf.cloud.ibm.com
+
+| Region        | Endpoint                      |
+| ------------- | ------------------------------|
+| US SOUTH      | api.us-south.cf.cloud.ibm.com |
+| US EAST       | api.us-east.cf.cloud.ibm.com  |
+| EU-GB         | api.eu-gb.cf.cloud.ibm.com    |
+| EU-DE         | api.eu-de.cf.cloud.ibm.com    |
+| AU-SYD        | api.au-syd.cf.cloud.ibm.com   |
+
 
 API endpoints for the Kubernetes registry
-region	    Domain name	Private domain name	
-ap-north	jp.icr.io	private.jp.icr.io	
-ap-south	au.icr.io	private.au.icr.io	
-eu-central	de.icr.io	private.de.icr.io	
-uk-south	uk.icr.io	private.uk.icr.io	
-us-south	us.icr.io	private.us.icr.io
 
+| Region      | Domain name | Private domain name  |
+| ------------| ------------| ---------------------|
+| ap-north    | jp.icr.io   | private.jp.icr.io    |
+| ap-south    | au.icr.io   | private.au.icr.io    |
+| eu-central  | de.icr.io   | private.de.icr.io    |
+| uk-south    | uk.icr.io   | private.uk.icr.io    |
+| us-south    | us.icr.io   | private.us.icr.io    |
