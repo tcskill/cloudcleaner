@@ -1,0 +1,14 @@
+{
+	"name": "cloudcleaner",
+	"version": "1.0.0",
+	"description": "cloudcleaner for IBM Cloud",
+	"main": "lib/index.js",
+	"author": "",
+	"license": "",
+	"dependencies": {
+		"lodash": "^4.17.4",
+		"log4js": "^2.3.4",
+		"shelljs": "^0.7.8",
+		"sync-request": "^4.1.0"
+	}
+}
