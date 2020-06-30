@@ -1,18 +1,18 @@
-# cloudcleaner
-# 
-# This automates the removal of either all CloudFoundry or Kubernetes clusers on IBM Cloud
-# this is an updated version of the original project devex-playground-cleaner
-# 
-# New in this release: 
-# 
-# Updated the API to the newer ibmcloud end points, removing old bluemix references
-# Added environment variable for selecting either CF or KUBE as the CLI changed for CF in IBM Cloud
-# Added functions to target the new CloudFoundry API
-# Fixed CF token being retrieved from command line and implemented new function for processing CF tokens
-# Implemented FORCE_DELETE environment variable
-# Implemented, documented, updated REGISTRY_API environment variable
+## cloudcleaner
 
-## Important Notes
+This automates the removal of either all CloudFoundry or Kubernetes clusers on IBM Cloud
+this is an updated version of the original project devex-playground-cleaner
+
+New in this release: 
+
+Updated the API to the newer ibmcloud end points, removing old bluemix references
+Added environment variable for selecting either CF or KUBE as the CLI changed for CF in IBM Cloud
+Added functions to target the new CloudFoundry API
+Fixed CF token being retrieved from command line and implemented new function for processing CF tokens
+Implemented FORCE_DELETE environment variable
+Implemented, documented, updated REGISTRY_API environment variable
+
+Important Notes
 
 Expects the ibmcloud CLI installed with the Cloud Foundry plugin.
 
