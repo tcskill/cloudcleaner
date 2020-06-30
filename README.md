@@ -19,7 +19,7 @@ this is an updated version of the original project devex-playground-cleaner
 
 Expects the ibmcloud CLI installed with the Cloud Foundry plugin.
 
-Starting from version 1.0.0, the IBM Cloud CLI no longer bundles the Cloud Foundry CLI by default. To run Cloud Foundry commands via the IBM Cloud CLI, install the Cloud Foundry CLI by using the 'ibmcloud cf install' command.
+Note:  Starting from version 1.0.0, the IBM Cloud CLI no longer bundles the Cloud Foundry CLI by default. To run Cloud Foundry commands via the IBM Cloud CLI, install the Cloud Foundry CLI by using the 'ibmcloud cf install' command.
 
 Expects following environment variables
 * CL_TARGET - either CF or KUBE to indicate which cloud environment to clean
