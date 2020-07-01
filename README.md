@@ -13,13 +13,22 @@ this is an updated version of the original project devex-playground-cleaner
 * Implemented FORCE_DELETE environment variable
 * Implemented, documented, updated REGISTRY_API environment variable
 
+## Deploying and Running
 
+```
+1.  Clone this repo
+2.  cd <cloudcleaner>\lib
+3.  node index.js
+```
 
 ### Important Prerequisites
 
 Expects the ibmcloud CLI installed with the Cloud Foundry plugin.
 
 Note:  Starting from version 1.0.0, the IBM Cloud CLI no longer bundles the Cloud Foundry CLI by default. To run Cloud Foundry commands via the IBM Cloud CLI, install the Cloud Foundry CLI by using the 'ibmcloud cf install' command.
+
+This is based on Node.js and tested tested with v13.6 
+
 
 Expects following environment variables
 * CL_TARGET - either CF or KUBE to indicate which cloud environment to clean
