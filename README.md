@@ -13,7 +13,7 @@ this is an updated version of the original project devex-playground-cleaner
 * Implemented FORCE_DELETE environment variable
 * Implemented, documented, updated REGISTRY_API environment variable
 
-## Deploying and Running
+### Deploying and Running
 
 ```
 1.  Clone this repo
