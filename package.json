@@ -8,7 +8,7 @@
 	"dependencies": {
 		"lodash": "^4.17.21",
 		"log4js": "^2.3.4",
-		"shelljs": "^0.7.8",
+		"shelljs": "^0.8.5",
 		"sync-request": "^4.1.0"
 	}
 }
